@@ -15,6 +15,23 @@ public class Matriz {
     private int numeroFilas;             
     private int numeroColumnas;
     private int[][] datos;
+    
+    /*
+     * Este constructor crea una matriz con las dimensiones establecidas.
+     * @param numeroColumnas el número de columnas que tendrá la Matriz
+     * @param numeroFilas el número de filas que tendrá la Matriz
+    */
+    public Matriz(int numeroColumnas, int numeroFilas){
+        this.numeroColumnas = numeroColumnas;
+        this.numeroFilas = numeroFilas;
+    }
+    
+    /*
+     * Este constructor crea una Matriz llenada con sus elementos !!!!!!!!
+    */
+    public Matriz(int[][] datos){
+        //Llenado de matriz
+    }
 
     /*
      * @return número de tipo de entero que representa el número de filas de la matriz.
@@ -46,14 +63,6 @@ public class Matriz {
         this.numeroColumnas = numeroColumnas;
     }
     
-    public Matriz(int numeroColumnas, int numeroFilas){
-        this.numeroColumnas = numeroColumnas;
-        this.numeroFilas = numeroFilas;
-    }
-    
-    public Matriz(int[][] datos){
-        //Llenado de matriz
-    }
     
     
     /**
@@ -61,7 +70,7 @@ public class Matriz {
      * que su número de filas y de columnas es el mismo.
      * Esta función se utilizará para verificar que las Matrices cumplen con esta propiedad
      * para que algunas de las operaciones puedan realizarse.
-     * @param Una matriz M.
+     * @param M Una matriz de números enteros
      * @return true si la matriz es cuadrada, false si no es cuadrada.
     */
     public boolean esCuadrada(Matriz M){
@@ -71,5 +80,10 @@ public class Matriz {
         else {
             return false;
         }
+    }
+    
+    // Podria ser la funcion de llenado de la matriz
+    public Matriz llenarMatriz(Matriz M){
+        return M;
     }
 }
