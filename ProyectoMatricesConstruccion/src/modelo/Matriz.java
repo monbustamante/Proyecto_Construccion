@@ -10,9 +10,11 @@ package modelo;
  * @author Equipo Los Aprobados ;) 
  */
 public class Matriz {
-    private final int M;             // number of rows
-    private final int N;             // number of columns
-    private final double[][] data;  
+    private int numeroFilas;             // number of rows
+    private int numeroColumnas;             // number of columns  
     
-    public Matriz(int)
+    public Matriz(int numeroColumnas, int numeroFilas){
+        this.numeroColumnas = numeroColumnas;
+        this.numeroFilas = numeroFilas;
+    }
 }
