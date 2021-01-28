@@ -5,10 +5,27 @@
  */
 package controlador;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  *
- * @author VictorEnrique
+ * @author los chidos
  */
-public class controlador {
+public class controlador implements ActionListener{
+
+    
+    
+    public controlador() {
+    }
+
+    public void iniciar(){
+        
+    }
+    
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

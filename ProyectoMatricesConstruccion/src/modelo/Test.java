@@ -5,6 +5,8 @@
  */
 package modelo;
 
+import vista.vistaPrincipal;
+
 /**
  *
  * @author VictorEnrique
@@ -15,7 +17,8 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        vista.vistaPrincipal vista = new vistaPrincipal();
+        suma suma = new suma();
     }
     
 }

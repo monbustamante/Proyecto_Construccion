@@ -29,7 +29,7 @@ public class vistaPrincipal extends javax.swing.JFrame {
 
         menuOperaciones = new javax.swing.JComboBox<>();
         menuLabel = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        cuadroTexto1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -47,9 +47,9 @@ public class vistaPrincipal extends javax.swing.JFrame {
 
         menuLabel.setText("Seleccione la operación a realizar: ");
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        cuadroTexto1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                cuadroTexto1ActionPerformed(evt);
             }
         });
 
@@ -62,7 +62,7 @@ public class vistaPrincipal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(menuOperaciones, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(menuLabel)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cuadroTexto1, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(203, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -73,7 +73,7 @@ public class vistaPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(menuOperaciones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cuadroTexto1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(54, Short.MAX_VALUE))
         );
 
@@ -84,9 +84,9 @@ public class vistaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_menuOperacionesActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void cuadroTexto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cuadroTexto1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_cuadroTexto1ActionPerformed
 
     private void menuOperacionesItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_menuOperacionesItemStateChanged
         // TODO add your handling code here:
@@ -129,7 +129,7 @@ public class vistaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField cuadroTexto1;
     private javax.swing.JLabel menuLabel;
     private javax.swing.JComboBox<String> menuOperaciones;
     // End of variables declaration//GEN-END:variables
