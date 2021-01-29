@@ -11,8 +11,6 @@ package modelo;
  * @author Montserrat Bustamante Rentería
  */
 public class MultiplicacionEscalar {
-    private int escalar;
-    
     /*
      * Esta función toma la matriz de tipo entero y la multiplica por el escalar
      * @param matriz Matriz de enteros
